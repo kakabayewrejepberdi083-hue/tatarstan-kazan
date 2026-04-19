@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.title{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 395px;
+    background: #2c3e50;
+    color: rgb(255, 255, 255);
+    padding: 1px 20px;
+}
+.tatarstan{
+    font-size: 30px;
+}
+.pages {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #34495e;
+    padding: 1px 10px;
+}
+.basic{
+    color: white;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 30px;
+}
+.page {
+    border: 3px solid #2c3e50;
+    border-radius: 20px;
+    padding: 5px 15px;
+    display: flex;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+.about-kazan {
+    display: flex;
+    padding: 20px;
+}
+.kazan {
+    border: 3px double #34495e;
+    border-radius: 20px;
+    flex: 3;
+    padding: 20px;
+    background: #ecf0f1;
+}
+.informations {
+    margin-left: 20px;
+    border: 3px double #34495e;
+    border-radius: 20px;
+    flex: 1;
+    padding: 20px;
+    background: #bdc3c7;
+}
+.footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 47px;
+}
+.information{
+    border: 2px solid #34495e;
+    border-radius: 13px;
+    padding: 5px;
+    margin-right: 180px;
+}
